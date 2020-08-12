@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lato&family=Paytone+One&family=Sigmar+One&display=swap');
 body,html{
   overflow-x: hidden;
 
@@ -22,7 +23,7 @@ body,html{
 .sidebar.show{
   right:30px;
 }
-.writing{
+.intro{
   width:100vw !important;
   height:100vh;
 }
@@ -69,8 +70,13 @@ body,html{
 
 .about{
   width:100vw !important;
-  height:100vh;
+  height:100vh !important;
+
+  background-color:#ffd700;
   
+}
+.about1{
+
 }
 .intro
 {
@@ -84,10 +90,14 @@ body,html{
 
 
 
-  #loader{
+ #loader{
     padding-top:200px;
     padding-left:110px;
   }
+.writing{
+  font-family: 'Paytone One', sans-serif;
+  padding-top: 25%;
+  padding-left:25%;
+  font-size: 60px;
 }
-
 
