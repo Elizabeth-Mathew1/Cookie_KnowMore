@@ -122,7 +122,7 @@ h3{
   background-color:#00cba9;
   display:grid;
   grid-template-columns: 580px 800px;
-  grid-template-rows: 800px;
+  grid-template-rows: 860px;
   
 }
 .why2{
@@ -131,4 +131,24 @@ h3{
 .why1{
   margin-left: 10%;
   margin-top: 20%;
+}
+.how{
+  background-color:#FFAE42;
+  width:100vw !important;
+  height:100vh !important;
+  display:grid;
+  grid-template-columns: 800px 580px;
+  grid-template-rows: 800px;
+}
+.how2{
+  padding-top: 15%;
+}
+.softwares{
+  width:100vw !important;
+  background-color: #C576F6;
+  height:100vh !important;
+
+}
+.softwares h2{
+  padding-left:35%;
 }
