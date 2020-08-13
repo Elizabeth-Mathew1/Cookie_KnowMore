@@ -82,7 +82,7 @@ h3{
   height:100vh !important;
   background-color:#ffd700;
   display:grid;
-  grid-template-columns: 800px 550px;
+  grid-template-columns: 800px 580px;
   grid-template-rows: 800px;
   
 }
@@ -90,8 +90,8 @@ h3{
   margin-left:10%;
 }
 .about2{
-  padding-top:30%;
-  padding-left: 25%;
+  margin-top:10%;
+  padding-left: 5%;
 }
 .intro
 {
@@ -116,3 +116,19 @@ h3{
   font-size: 60px;
 }
 
+.why{
+  width:100vw !important;
+  height:100vh !important;
+  background-color:#00cba9;
+  display:grid;
+  grid-template-columns: 580px 800px;
+  grid-template-rows: 800px;
+  
+}
+.why2{
+  margin-left:90px;
+}
+.why1{
+  margin-left: 10%;
+  margin-top: 20%;
+}
