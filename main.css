@@ -147,8 +147,22 @@ h3{
   width:100vw !important;
   background-color: #C576F6;
   height:100vh !important;
+  display:grid;
+  grid-template-columns: 580px 800px;
+  grid-template-rows: 860px;
+  
+
 
 }
-.softwares h2{
-  padding-left:35%;
+.soft2{
+  margin-left:90px;
+}
+.soft1{
+  margin-left: 10%;
+  margin-top: 20%;
+}
+.footer{
+  width:100vw;
+  height:50vh;
+  background-color: #a2d9ff;
 }
