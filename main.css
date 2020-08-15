@@ -5,14 +5,14 @@ body,html{
 
 }
 .btn{
-  position: absolute;
+  position: fixed;
   top:15px;
   right:10px;
   cursor: pointer;
 }
 h2{
   font-family: 'Paytone One', sans-serif;
-  text-transform: uppercase;
+ 
   font-size: 150px;
 }
 h3{
@@ -87,22 +87,27 @@ h3{
   
 }
 .about1{
-  margin-left:10%;
+  padding-left:5%;
 }
 .about2{
   margin-top:10%;
   padding-left: 5%;
+  padding-right: 2%;
 }
 .intro
 {
     background-image: url("assets/img2.jpg");
+    height:90vh;
     background-repeat: no-repeat!important;
     min-width:  100%!important;
     z-index:-1;
-    min-height:100%!important;
+    min-height:90%!important;
+    display: block;
     background-size:cover;
 }
-
+.intro > svg {
+  display: block;
+}
 
 
  #loader{
@@ -112,7 +117,7 @@ h3{
 .writing{
   font-family: 'Paytone One', sans-serif;
   padding-top: 25%;
-  padding-left:25%;
+  padding-left:30%;
   font-size: 60px;
 }
 
@@ -130,7 +135,7 @@ h3{
 }
 .why1{
   margin-left: 10%;
-  margin-top: 20%;
+  
 }
 .how{
   background-color:#FFAE42;
@@ -142,6 +147,7 @@ h3{
 }
 .how2{
   padding-top: 15%;
+  padding-right:3%;
 }
 .softwares{
   width:100vw !important;
@@ -159,7 +165,7 @@ h3{
 }
 .soft1{
   margin-left: 10%;
-  margin-top: 20%;
+
 }
 .footer{
   width:100vw;
